@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navabar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 16px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7px);         
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 4px solid rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+.navabar .logo {
+    font-size: 30px;
+    color: #ffe0b8;
+}
+
+.navabar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navabar ul li a {
+    color: #f8c09b;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.navabar ul li a:hover {
+    color: #ff6347;
+}
+
+.hero {
+    height: 100vh;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('pics/pexels-anhd1.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 53px;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 15px 10px;
+    background-color: #e67e22; 
+    color: #ffe7c9;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.7s ease;
+}
+
+.hero .btn:hover {
+    background-color: #f0d8c4;
+    color: #e67e22;
+}
