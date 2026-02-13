@@ -20,8 +20,6 @@
     border-bottom: 4px solid rgba(255, 255, 255, 0.2); 
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
-
-
 .navabar .logo {
     font-size: 30px;
     color: #ffe0b8;
@@ -40,15 +38,17 @@
     font-weight: bold;
     transition: 0.3s ease;
 }
-
 .navabar ul li a:hover {
     color: #ff6347;
 }
 
+
+
+
 .hero {
     height: 100vh;
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('pics/pexels-anhd1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('pexels-anhd1.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,16 +59,18 @@
     background-position: center;
     color: #fff;
 }
-
 .hero h1 {
     font-size: 53px;
     text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
-
 .hero p {
     font-size: 18px;
     margin: 20px 0px;
 }
+
+
+
+
 
 .hero .btn {
     display: inline-block;
@@ -81,7 +83,6 @@
     border-radius: 5px;
     transition: 0.7s ease;
 }
-
 .hero .btn:hover {
     background-color: #f0d8c4;
     color: #e67e22;
